@@ -121,7 +121,7 @@ Your build script should include a step in which does it compile the `modules.js
 **require** includes a simple node.js-based compiler:
 
 ```bash
-$ node ./compile modules.js -d ./ > modules-compiled.js
+$ node ./require/compile modules.js -d ./ > modules-compiled.js
 ```
 
 ### Compiler Options
